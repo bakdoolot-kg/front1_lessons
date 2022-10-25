@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+.list__item {
+  text-align: center;
+  color: blue;
+  padding: 10px;
+}
